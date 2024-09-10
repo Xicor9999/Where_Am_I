@@ -73,28 +73,28 @@
     <collision name='back_caster_collision'>
       <origin xyz="-0.15 0 -0.05" rpy=" 0 0 0"/>
       <geometry>
-        <sphere radius="0.06"/>
+        <sphere radius="0.0599"/>
       </geometry>
     </collision>
 
     <visual name='back_caster_visual'>
       <origin xyz="-0.15 0 -0.05" rpy=" 0 0 0"/>
       <geometry>
-        <sphere radius="0.06"/>
+        <sphere radius="0.0599"/>
       </geometry>
     </visual>
 
     <collision name='front_caster_collision'>
       <origin xyz="0.15 0 -0.05" rpy=" 0 0 0"/>
       <geometry>
-        <sphere radius="0.06"/>
+        <sphere radius="0.0599"/>
       </geometry>
     </collision>
 
     <visual name='front_caster_visual'>
       <origin xyz="0.15 0 -0.05" rpy=" 0 0 0"/>
       <geometry>
-        <sphere radius="0.06"/>
+        <sphere radius="0.0599"/>
       </geometry>
     </visual>
 
@@ -109,7 +109,7 @@
     <visual name="">
       <origin xyz="0.0 0.0 0.0" rpy="0.0 1.5707 1.5707"/>
       <geometry>
-        <cylinder radius="0.115" length="0.06"/>
+        <cylinder radius="0.11" length="0.06"/>
       </geometry>
       <material name="">
         <color rgba="1.0 0.0 0.0 1.0"/>
@@ -119,7 +119,7 @@
     <collision>
       <origin xyz="0.0 0.0 0.0" rpy="0.0 1.5707 1.5707"/>
       <geometry>
-        <cylinder radius="0.115" length="0.06"/>
+        <cylinder radius="0.11" length="0.06"/>
       </geometry>
     </collision>
   </link>
@@ -133,7 +133,7 @@
     <visual name="">
       <origin xyz="0.0 0.0 0.0" rpy="0.0 1.5707 1.5707"/>
       <geometry>
-        <cylinder radius="0.115" length="0.06"/>
+        <cylinder radius="0.11" length="0.06"/>
       </geometry>
       <material name="">
         <color rgba="1.0 0.0 0.0 1.0"/>
@@ -143,7 +143,7 @@
     <collision>
       <origin xyz="0.0 0.0 0.0" rpy="0.0 1.5707 1.5707"/>
       <geometry>
-        <cylinder radius="0.115" length="0.06"/>
+        <cylinder radius="0.11" length="0.06"/>
       </geometry>
     </collision>
   </link>
